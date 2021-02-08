@@ -17,5 +17,7 @@ public class Addition {
         int sum = number1 + number2; // add numbers, then store total in sum
         
         System.out.printf("Sum is %d%n", sum); // display sum
+
+        input.close();
     } // end method main
 } // end class Addition
